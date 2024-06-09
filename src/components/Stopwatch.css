@@ -1,0 +1,33 @@
+/* src/Stopwatch.css */
+
+.stopwatch {
+    text-align: center; /* Center align elements */
+    position: absolute; /* Positioning absolute */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for exact centering */
+  }
+  
+  .time {
+    font-size: 48px;
+    margin: 20px 0;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .buttons button {
+    margin: 0 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50; /* Green background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    cursor: pointer; /* Pointer cursor */
+  }
+  
+  .buttons button:hover {
+    background-color: #45a049; /* Darker green background on hover */
+  }
+  
